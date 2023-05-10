@@ -693,12 +693,20 @@ strong {
 }
 
 @media screen and (max-width: 767px) {
+  .google-map iframe{
+    max-width: 100%;
+  }
+
   .news-detail-title {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 360px) {
+  .google-map iframe{
+    max-width: 100%;
+  }
+
   h1 {
     font-size: 32px;
   }

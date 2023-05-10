@@ -581,6 +581,11 @@ strong {
   filter: grayscale(100);
 }
 
+.google-map iframe {
+  width: 100% !important;
+  height: 450px;
+}
+
 /*---------------------------------------
   SITE FOOTER               
 -----------------------------------------*/
